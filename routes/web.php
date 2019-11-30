@@ -6,6 +6,8 @@
 
 //Route::auth();
 
+//spt changed
+
 Route::group(['prefix' => '/supyae'], function () {
    Route::get('/', [
         'as'   => '',
