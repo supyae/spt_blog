@@ -7,6 +7,13 @@
 //Route::auth();
 
 // cmd hello world write by jh
+
+Route::group(['prefix' => '/supyae'], function () {
+   Route::get('/', [
+        'as'   => '',
+        'uses' => 'WelcomeController@index']);
+});
+
 Route::group(['prefix' => '/'], function () {
     Route::get('/', [
         'as'   => '',
