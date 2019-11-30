@@ -6,7 +6,9 @@
 
 //Route::auth();
 
+
 // cmd hello world write by jh
+// change
 
 Route::group(['prefix' => '/supyae'], function () {
    Route::get('/', [
