@@ -6,7 +6,7 @@
 
 //Route::auth();
 
-
+// cmd hello world write by jh
 Route::group(['prefix' => '/'], function () {
     Route::get('/', [
         'as'   => '',
