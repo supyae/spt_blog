@@ -6,6 +6,11 @@
 
 //Route::auth();
 
+Route::group(['prefix' => '/supyae'], function () {
+   Route::get('/', [
+        'as'   => '',
+        'uses' => 'WelcomeController@index']);
+});
 
 Route::group(['prefix' => '/'], function () {
     Route::get('/', [
